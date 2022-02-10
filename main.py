@@ -102,7 +102,7 @@ class InstaBot:
                 self.driver.find_element_by_xpath("//a[contains(@href,'/{}')]".format(search))\
                         .click()
                 
-bot = InstaBot('jpegcrack','Kabuasa1997')
+bot = InstaBot('username','password')
 sleep(3)
 
 
